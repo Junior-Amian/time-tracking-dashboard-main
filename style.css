@@ -106,9 +106,9 @@ body{
     flex-direction: column;
 }
 
-.card-sm:hover .top{
+/* .card-sm:hover .top{
     background-position: 5rem 5rem;
-}
+} */
 
 .card-sm  .bottom{
     border-radius: 15px;
@@ -116,6 +116,12 @@ body{
     height: calc(100% - 22%);
     margin-top: -12px;
     border-radius: 15px;
+    transition: background-color .5s;
+}
+
+.card-sm:hover .bottom{
+    background-color: var(--Desaturated-blue);
+    cursor :pointer;
 }
 
 .top{
